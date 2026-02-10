@@ -8,10 +8,11 @@
   "engines": {
     "node": ">=18.18.0"
   },
+  "packageManager": "yarn@1.22.22",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "./dist/"
+    "./**/*"
   ],
   "exports": {
     ".": {
@@ -31,6 +32,7 @@
     }
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "lint": "eslint ./src --ext ts --report-unused-disable-directives"
   },

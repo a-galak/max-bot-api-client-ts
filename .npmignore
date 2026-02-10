@@ -1,7 +1,7 @@
-yarn.lock
+#yarn.lock
 
-.gitignore
-.eslintrc.json
+#.gitignore
+#.eslintrc.json
 
 .idea/
 .DS_Store
